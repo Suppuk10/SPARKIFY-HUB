@@ -2,7 +2,8 @@ export const siteMetadata = {
   title: " SPARKIFY HUB - Digital Marketing Agency",
   author: "Ravi Kishor",
   headerTitle: "SPARKIFY HUB",
-  description: "SPARKIFY HUB is a modern digital marketing agency helping businesses scale with branding, performance marketing, websites and creative strategy. We combine creativity with technology to build brands that people remember.",
+  description:
+    "SPARKIFY HUB is a modern digital marketing agency helping businesses scale with branding, performance marketing, websites and creative strategy. We combine creativity with technology to build brands that people remember.",
   language: "en-us",
   theme: "light",
   siteName: "SPARKIFYHUB",

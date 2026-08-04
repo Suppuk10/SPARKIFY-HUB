@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FiExternalLink } from "react-icons/fi";
 
 import Corosel from "@/components/utility/corosel";
-import { GithubIcon } from "@/components/icons";
+// import { GithubIcon } from "@/components/icons";
 
 export interface ProjectCardProps {
   name: string;

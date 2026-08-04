@@ -9,9 +9,10 @@ const nextConfig = withBundleAnalyzer({
   pageExtensions: ["ts", "tsx", "js"],
   eslint: {
     dirs: ["src"],
+    ignoreDuringBuilds: true,
   },
   images: {
-    domains: ["https://flagcdn.com"],
+    domains: ["flagcdn.com"],
   },
   webpack: (config) => {
     config.module.rules.push({

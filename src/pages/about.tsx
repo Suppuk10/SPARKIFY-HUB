@@ -39,8 +39,14 @@ export default function About() {
         ]}
       />
       <AboutHero />
-      <ExperienceShowcaseList title="Why Choose Sparkify Hub" details={EXPERIENCE} />
-      <ExperienceShowcaseList title="We Build Digital Experiences" details={EDUCATION} />
+      <ExperienceShowcaseList
+        title="Why Choose Sparkify Hub"
+        details={EXPERIENCE}
+      />
+      <ExperienceShowcaseList
+        title="We Build Digital Experiences"
+        details={EDUCATION}
+      />
     </>
   );
 }

@@ -42,20 +42,32 @@ export default function LandingHero() {
                 Sparkify Hub
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-              Grow Your Business with Creative Digital Marketing
+                Grow Your Business with Creative Digital Marketing
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                At Sparkify Hub, we help businesses build a powerful online presence through
-                {" "}
-                <span className="font-semibold text-accent">creative content </span>,{" "}
-                <span className="font-semibold text-accent">social media management </span>,{" "}
-                <span className="font-semibold text-accent">paid advertising </span>, 
-                {" "}
-                <span className="font-semibold text-accent">website development </span>,{" "}
-                <span className="font-semibold text-accent">SEO,</span> and{" "}
-                <span className="font-semibold text-accent">digital branding strategies.</span>
+                At Sparkify Hub, we help businesses build a powerful online
+                presence through{" "}
+                <span className="font-semibold text-accent">
+                  creative content{" "}
+                </span>
+                ,{" "}
+                <span className="font-semibold text-accent">
+                  social media management{" "}
+                </span>
+                ,{" "}
+                <span className="font-semibold text-accent">
+                  paid advertising{" "}
+                </span>
+                ,{" "}
+                <span className="font-semibold text-accent">
+                  website development{" "}
+                </span>
+                , <span className="font-semibold text-accent">SEO,</span> and{" "}
+                <span className="font-semibold text-accent">
+                  digital branding strategies.
+                </span>
               </div>
             </FadeUp>
           </AnimatePresence>

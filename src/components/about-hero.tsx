@@ -37,7 +37,10 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Sparkify Hub is a modern digital marketing agency helping businesses scale with branding, performance marketing, websites and creative strategy. We combine creativity with technology to build brands that people remember.
+              Sparkify Hub is a modern digital marketing agency helping
+              businesses scale with branding, performance marketing, websites
+              and creative strategy. We combine creativity with technology to
+              build brands that people remember.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
@@ -46,7 +49,10 @@ export default function AboutHero() {
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing our expertise in digital marketing, website development, creative design, social media growth, SEO optimization, and brand-building solutions that help businesses succeed online.
+              showcasing our expertise in digital marketing, website
+              development, creative design, social media growth, SEO
+              optimization, and brand-building solutions that help businesses
+              succeed online.
             </p>
           </FadeUp>
           <FadeRight
@@ -72,5 +78,4 @@ export default function AboutHero() {
       </div>
     </div>
   );
-  
 }
